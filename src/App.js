@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import ClassCounter from './components/ClassCounter';
+import DataFetching from './components/DataFetch/DataFetching';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			{/* <ClassCounter /> */}
+			<h1>Hello React</h1>
+			{/* <HookCounter /> */}
+			{/* <HookCounterFour/> */}
+			{/* <HookCounterOne/>
+			 */}
+			{/* <MouseContainer />
+			 */}
+			{/* <IntervalHookCounter />
+			 */}
+			<DataFetching />
+		</div>
+	);
 }
 
 export default App;
